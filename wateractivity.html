@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lochquarry Outdoor Centre</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+    </head>
+    <body>
+        <img src="Lochquarry_Banner_Logo.png" alt="Banner" width="1830">
+        <header>
+            <h1>Lochquarry Outdoor Centre<br><span id="typedText">interactive</span></h1>
+            <div id="particles-js"></div>
+        </header>
+         <nav>
+            <ul>
+                <!-- Put a Hash symbol - # = at the start to create a dummy link.-->
+                 <li><a href="index.html">Home Page</a></li>
+                  <li><a href="landactivity.html">Land Based Activities</a> </li>
+                   <li><a href="wateractivity.html">Water Based Activities</a> </li>
+                    <li><a href="ropeactivity.html">Rope Based Activities</a> </li>
+                     <li><a href="about.html">About Lochquarry Outdoor Centre</a> </li>
+            </ul>
+         </nav>
+          <section>
+             <h2>Water Based Activities: </h2>
+              <p>Water-based activities all take place on Lochquarry itself.</p>
+               <h3>Kayaking: </h3>
+                <p>Have a go at paddling, rolling and rafting in one of our brand new kayaks. Max group size 8. Ages 8+.</p>
+                <h3>Canoeing: </h3>
+                 <p>Work single-handedly or in pairs to canoe the length of Lochquarry. You can even take a picnic with you and explore some of the Loch’s islands. Max group size 8 boats (up to 16 people). Ages 6+.</p>
+                  <h3>Powerboating: </h3>
+                   <p>Take control of one of the Centre’s two RIBs out on Lochquarry and try your hand powerboating. Max group size 6. Ages 12+.</p>
+                     <h3>Here are some memorable moments described through pictures:</h3>
+                      <img src="water/kayaking_3.jpg" alt="Kayaking" width="300">
+                       <img src="water/kayaking_2.jpg" alt="kayaking" width="300">
+                        <img src="water/powerboating_1.jpg" alt="Powerboating" width="300">
+                         <h3>Customer Reviews:</h3>
+                          <p> We had a great time and loved all the different activities that we did - 8th Gourock Guides.</p>
+                           <p>The Scouts loved every second of it, especially the powerboating' - Martin Bainbridge, Scout Leader.</p>
+                            <p>Five stars, it was great' - Joe, aged 14.</p>
+                             <p>Learn more about water-based activities at <a href="https://pinkston.co.uk/" target="_blank"> Pinkston Watersports</a>.</p>
+         </section>
+        <footer>
+            <!-- Copyright Symbol: press Alt + 0169 -->
+             <p>© 2026 Lochquarry Outdoor Centre. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script>
+            const typed = new Typed("#typedText", {
+     strings: ["Rope based activities.", "Land based activities.", "Water based activities.", "About Lochquarry outdoor centre."],
+     typeSpeed: 70,
+     backSpeed: 40,
+     backDelay: 1200,
+     loop: true
+   });
+   particlesJS("particles-js", {
+      "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#245546" },
+    "shape": { "type": "erectangle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 2 }
+    }
+   });
+           </script>
+    </body>
+</html>

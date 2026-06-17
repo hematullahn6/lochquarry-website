@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lochquarry Outdoor Centre</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+    </head>
+    <body>
+        <img src="Lochquarry_Banner_Logo.png" alt="Banner" width="1830">
+        <header>
+            <h1>Lochquarry Outdoor Centre<br><span id="typedText">interactive</span></h1>
+            <div id="particles-js"></div>
+        </header>
+         <nav>
+            <ul>
+                <!-- Put a Hash symbol - # = at the start to create a dummy link.-->
+                 <li><a href="index.html">Home Page</a></li>
+                  <li><a href="landactivity.html">Land Based Activities</a> </li>
+                   <li><a href="wateractivity.html">Water Based Activities</a> </li>
+                    <li><a href="ropeactivity.html">Rope Based Activities</a> </li>
+                     <li><a href="about.html">About Lochquarry Outdoor Centre</a> </li>
+            </ul>
+         </nav>
+          <section>
+           <h2>About Lochquarry Outdoor Centre:</h2>
+            <h3>Welcome to Lochquarry Outdoor Centre!</h3>
+             <p>Lochquarry Outdoor Centre is located in the beautiful Argyll hills and offers a range of exciting outdoor activities for young people.</p>
+              <p>Our activities are suitable for all ages and experience levels. All activities are supervised by trained staff and safety equipment is provided.</p>
+               <h4>Meet Our Staff: </h4>
+                <h5>Claire Jack - Centre Manager</h5>
+                 <img src="staff/claire_jack.jpeg" alt="Claire Jack" width="200">
+                 <p>Claire is responsible for the overall running of the centre and all activities. Her favourite activity is Pole Climb.</p>
+                  <h5>Robbie Elliot - Senior Instructor (Land)</h5>
+                     <img src="staff/robbie_elliot.jpeg" alt="Robbie Elliot" width="200">
+                   <p>Robbie oversees all land-based activities. His favourite activity is hillwalking in the Scottish Highlands.</p>
+                    <h5>Marion Hunter - Centre Administrator</h5>
+                     <img src="staff/marion_hunter.jpg" alt="Marion Hunter" width="300">
+                     <p>Marion manages bookings and activity schedules. Her favourite activity is helping visitors enjoy their time at Lochquarry.</p>
+                      <h3>Our Visitors:</h3>
+                       <p>Our activities are popular with schools, Scouts, Guides and other youth groups.</p>
+                        <h3>Contact Us:</h3>
+                          <p>To book your next adventure, call us on 01475 229 8311.</p> 
+                           <img src="nature/nature_1.jpg" alt="nature" width="300">
+                            <img src="nature/nature_2.jpg" alt="nature" width="300">
+                             <img src="nature/nature_3.jpg" alt="nature" width="300">
+                              <p> To learn more about our centre and the activities, visit our other <a href="https://lochquarryoutdoor.neocities.org/" target="_blank">website</a>.</p>      
+          </section>
+        <footer>
+            <!-- Copyright Symbol: press Alt + 0169 -->
+             <p>© 2026 Lochquarry Outdoor Centre. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script>
+            const typed = new Typed("#typedText", {
+     strings:["Rope based activities.", "Land based activities.", "Water based activities.", "About Lochquarry outdoor centre."],
+     typeSpeed: 70,
+     backSpeed: 40,
+     backDelay: 1200,
+     loop: true
+   });
+   particlesJS("particles-js", {
+      "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#245546" },
+    "shape": { "type": "erectangle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 2 }
+    }
+   });
+           </script>
+    </body>
+</html>

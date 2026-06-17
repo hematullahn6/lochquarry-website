@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lochquarry Outdoor Centre</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+    </head>
+    <body>
+        <img src="Lochquarry_Banner_Logo.png" alt="Banner" width="1830">
+        <header>
+            <h1>Lochquarry Outdoor Centre<br><span id="typedText">interactive</span></h1>
+            <div id="particles-js"></div>
+        </header>
+        <nav>
+            <ul>
+                <!-- Put a Hash symbol - # = at the start to create a dummy link.-->
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="landactivity.html">Land Based Activities</a> </li>
+                <li><a href="wateractivity.html">Water Based Activities</a> </li>
+                <li><a href="ropeactivity.html">Rope Based Activities</a> </li>
+                <li><a href="about.html">About Lochquarry Outdoor Centre</a> </li>
+            </ul>
+        </nav>
+        <section>
+         <h2>Land Based Activities: </h2>
+          <p>Visitors can take part in a wide range of land-based activities on and off site.</p>
+
+           <h3>Hillwalking: </h3>
+            <p>From short walks around the site to Munro-bagging expeditions, Lochquarry has it all! Walks can be tailored to suit any age or experience of groups and can last from one hour to all day adventures. Max group size 12. Ages 6+.</p>
+             <h3>Archery: </h3>
+              <p>Are you the next Robin Hood? Learn to hold a bow and fire an arrow and take part in fast and fun shootout competitions. Max group size 6. Ages 6+.</p>
+               <h3>Orienteering: </h3>
+                <p>Set in the centre’s grounds, find all the markers and make it back in time to show off your superior navigation knowledge. Groups of 2+, one map per group. Ages 6+.</p>
+                  <h4>Axe Throwing: </h4>
+                   <p>Take yourself back to a time of Vikings and have a go at throwing an axe. Try to hit the target, better yet throw yourself a bullseye. Max group size 6. Ages 10+.</p>
+                     <h3>Here are some memorable moments described through pictures:</h3>
+                      <img src="land/hillwalking_1.jpg" alt="hillwalking" width="300">
+                       <img src="land/axe_2.jpg" alt="axe throwing" width="300">
+                        <img src="land/archery_1.jpg" alt="archery" width="300">
+                         <h3>Customer Reviews:</h3>
+                          <p> The archery was brilliant, but not as good as axe throwing, I never thought we’d be allowed to do that! I got one of my axes right in the middle of the target - Scott, aged 13.</p>
+                           <p> I would definitely come back - Kelly, aged 9.</p>
+                            <p>Learn more about land-based activities at <a href="https://outdoorelements.co.uk/land-activities/" target="_blank"> Outdoor Elements East 2001</a>.</p>
+           </section>
+        <footer>
+            <!-- Copyright Symbol: press Alt + 0169 -->
+             <p>© 2026 Lochquarry Outdoor Centre. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script>
+            const typed = new Typed("#typedText", {
+     strings:["Rope based activities.", "Land based activities.", "Water based activities.", "About Lochquarry outdoor centre."],
+     typeSpeed: 70,
+     backSpeed: 40,
+     backDelay: 1200,
+     loop: true
+   });
+   particlesJS("particles-js", {
+      "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#245546" },
+    "shape": { "type": "erectangle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 2 }
+    }
+   });
+           </script>
+    </body>
+</html>

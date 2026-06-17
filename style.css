@@ -1,0 +1,39 @@
+
+body{ 
+    font-family: Arial, sans-serif;
+    margin:20px;
+    Line-height:1.5;
+    background-color: chocolate;
+}
+
+li a {
+  color: black;
+  
+}
+
+nav li {
+    display:inline;
+    margin-right: 20px;
+    color: black;
+}
+nav  {
+   background-color:lightgray ;
+  }
+
+h1 {
+  color: rgb(57, 124, 57);
+}
+
+
+
+h3 {
+  background-color: lightgray;
+}
+h4 {
+  background-color: lightgray;
+}
+#particles-js {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}

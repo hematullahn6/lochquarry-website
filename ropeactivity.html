@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lochquarry Outdoor Centre</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+    </head>
+    <body>
+        <img src="Lochquarry_Banner_Logo.png" alt="Banner" width="1830">
+        <header>
+            <h1>Lochquarry Outdoor Centre<br><span id="typedText">interactive</span></h1>
+            <div id="particles-js"></div>
+        </header>
+         <nav>
+            <ul>
+                <!-- Put a Hash symbol - # = at the start to create a dummy link.-->
+                 <li><a href="index.html">Home Page</a></li>
+                  <li><a href="landactivity.html">Land Based Activities</a> </li>
+                   <li><a href="wateractivity.html">Water Based Activities</a> </li>
+                    <li><a href="ropeactivity.html">Rope Based Activities</a> </li>
+                     <li><a href="about.html">About Lochquarry Outdoor Centre</a> </li>
+            </ul>
+         </nav>
+          <section>
+            <h2>Rope Based Activities: </h2>
+             <p>All rope-based activities take place on site with full safety equipment provided.</p>
+             <h3>Climbing: </h3>
+              <p>Scale the highs of one of the local quarry slabs. Max group size 8. Ages 8+.</p>
+              <h3>Abseiling: </h3>
+               <p>Take the scary step and abseil from the top of one of the local quarry slabs. There is a lovely view... if you are brave enough to look down! Max group size 8. Ages 8+.</p>
+               <h3>Pole Climb: </h3>
+                <p>Ever wondered how telephone engineers get to the top of the telephone poles? Well, here’s your chance to find out. Max group size 8. Ages 8+.</p>
+                 <h3>Giant Swing: </h3>
+                  <p>Get strapped in and swing out over the quarry. Max group size 8. Ages 8+.</p>
+                   <h3>Here are some memorable moments described through pictures:</h3>
+                    <img src="rope/climbing_1.jpg" alt="climbing" width="300">
+                     <img src="rope/abseiling_1.jpg" alt="abseiling" width="300">
+                       <img src="rope/pole_climb_1.jpg" alt="pole climbing" width="300">
+                        <h3>Customer Reviews:</h3>
+                         <p> I was really scared about the abseiling but the instructor Mike was really encouraging and helped me do it, thanks Mike' - Sophie, aged 10.</p>
+                          <p> I would definitely come back - Kelly, aged 9.</p>
+                           <p> Learn more about rope-based activities at <a href="https://www.ropesdirect.co.uk/" target="_blank"> Rope Adventures</a>.</p>
+          </section>
+        <footer>
+            <!-- Copyright Symbol: press Alt + 0169 -->
+             <p>© 2026 Lochquarry Outdoor Centre. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script>
+            const typed = new Typed("#typedText", {
+     strings:["Rope based activities.", "Land based activities.", "Water based activities.", "About Lochquarry outdoor centre."],
+     typeSpeed: 70,
+     backSpeed: 40,
+     backDelay: 1200,
+     loop: true
+   });
+   particlesJS("particles-js", {
+      "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#245546" },
+    "shape": { "type": "erectangle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 2 }
+    }
+   });
+           </script>
+    </body>
+</html>
